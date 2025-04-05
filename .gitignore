@@ -1,0 +1,28 @@
+# First ignore everything
+*
+
+# Then allow directories so we can selectively include content
+!*/
+
+# Explicitly allow Python and shell files
+!*.py
+!*.sh
+
+# Only keep these specific directories
+# Implicitly exclude all other directories
+/*
+!/motionDetector/
+!/trash/
+!/old/
+
+# Even in allowed directories, ignore these file types
+*.json
+*.pem
+*.pt
+*.key
+*.PUB
+*.pub
+*.mkv
+
+# Don't forget to keep the gitignore itself
+!.gitignore
