@@ -3,9 +3,18 @@
 !*/
 
 # Don't ignore specific directories you want to keep
-!motionDetector/
+!motionDetector/**
+!old/**
+
+# For trash directory, keep only files (not subdirectories)
 !trash/
-!old/
+!trash/*.py
+!trash/*.sh
+!trash/*.txt
+# Add any other file extensions you want to keep in trash
+
+# Ignore all subdirectories inside trash
+trash/*/
 
 # Ignore all JSON files
 *.json
@@ -48,7 +57,8 @@ faceDetectionsOld/
 face_recognition_results/
 intel/
 logs/
-model benching/
+model*benching/
+"model benching"/
 models/
 open_model_zoo/
 output_frames/
@@ -58,5 +68,10 @@ results/
 testing_greythr_attendance/
 track_continuity/
 
-# Ignore MKV video files
-*.mkv
+# For directories with spaces, try alternative syntax
+"model benching"/**
+'model benching'/**
+
+# Explicitly ignore these problematic directories with all content
+.local/**
+models/**

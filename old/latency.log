@@ -1,0 +1,14 @@
+Total Processing Time: 71.6348 seconds
+Average Frame Processing Time: 71.5917 ms
+Frames Processed: 1000
+
+Inference Statistics:
+Average Inference Time: 0.2781 ms
+Minimum Inference Time: 0.0768 ms
+Maximum Inference Time: 178.2799 ms
+
+Confidence Statistics:
+Average Confidence: 0.4918
+Minimum Confidence: 0.4001
+Maximum Confidence: 0.8608
+Total Detections: 2074

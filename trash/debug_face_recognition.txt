@@ -1,0 +1,769 @@
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084807_998239_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084807_998239_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_013633_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_013633_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_020758_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_020758_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_028817_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_028817_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_042894_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_042894_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_053604_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_053604_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_062912_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_062912_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_080028_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_080028_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_088041_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_088041_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_109155_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_109155_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_119572_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_119572_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_120950_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_120950_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_196244_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_196244_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_208719_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_208719_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_209888_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_209888_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_225803_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_225803_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_232595_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_232595_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084808_270876_confidence_91.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084808_270876_confidence_91.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084810_730933_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084810_730933_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084810_951133_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084810_951133_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084810_961840_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084810_961840_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084810_974869_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084810_974869_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084810_985401_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084810_985401_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_084811_151699_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_084811_151699_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085409_743052_confidence_91.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085409_743052_confidence_91.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085409_744059_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085409_744059_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085409_756841_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085409_756841_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085409_765672_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085409_765672_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085409_780099_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085409_780099_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085409_781819_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085409_781819_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085409_796764_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085409_796764_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085409_809309_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085409_809309_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085409_816616_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085409_816616_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085409_828495_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085409_828495_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085409_843977_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085409_843977_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_455894_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_455894_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_506592_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_506592_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_581673_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_581673_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_593974_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_593974_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_606661_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_606661_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_618543_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_618543_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_664826_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_664826_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_680244_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_680244_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_696492_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_696492_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_720491_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_720491_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_722040_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_722040_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_750000_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_750000_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_773047_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_773047_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085415_774526_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085415_774526_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085456_875319_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085456_875319_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085456_889033_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085456_889033_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085456_905739_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085456_905739_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085456_924756_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085456_924756_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085456_934657_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085456_934657_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085457_012955_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085457_012955_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085457_043244_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085457_043244_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085457_044048_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085457_044048_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085457_073142_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085457_073142_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085457_074473_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085457_074473_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085457_110369_confidence_91.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085457_110369_confidence_91.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085458_988344_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085458_988344_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085459_596003_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085459_596003_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085556_802459_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085556_802459_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085556_822981_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085556_822981_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085556_879186_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085556_879186_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085556_936563_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085556_936563_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085557_008623_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085557_008623_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085557_010032_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085557_010032_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085557_072600_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085557_072600_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085557_462909_confidence_91.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085557_462909_confidence_91.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085647_829305_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085647_829305_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085647_852955_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085647_852955_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085647_869373_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085647_869373_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085647_896237_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085647_896237_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085647_959229_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085647_959229_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085647_972653_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085647_972653_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085648_001340_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085648_001340_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_625060_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_625060_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_654269_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_654269_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_655652_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_655652_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_664746_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_664746_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_673697_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_673697_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_732702_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_732702_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_741364_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_741364_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_748622_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_748622_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_763138_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_763138_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_769421_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_769421_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_782934_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_782934_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_800037_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_800037_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_825853_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_825853_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_836757_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_836757_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085743_878933_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085743_878933_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_085837_307176_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_085837_307176_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_090042_023251_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_090042_023251_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_090849_664407_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_090849_664407_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_090849_677587_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_090849_677587_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_090849_679048_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_090849_679048_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_090948_872711_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_090948_872711_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_090948_910184_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_090948_910184_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_090948_923114_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_090948_923114_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_090948_930476_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_090948_930476_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_090948_936162_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_090948_936162_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_182642_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_182642_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_193521_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_193521_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_279734_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_279734_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_294865_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_294865_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_304610_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_304610_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_316291_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_316291_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_321438_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_321438_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_332426_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_332426_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_354274_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_354274_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_362686_confidence_91.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_362686_confidence_91.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_498718_confidence_91.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_498718_confidence_91.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_629873_confidence_91.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_629873_confidence_91.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_670728_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_670728_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091144_776192_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091144_776192_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091149_276656_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091149_276656_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091149_277952_confidence_91.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091149_277952_confidence_91.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091149_386420_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091149_386420_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091150_240747_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091150_240747_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091150_252959_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091150_252959_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091150_258801_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091150_258801_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091150_274555_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091150_274555_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091152_638594_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091152_638594_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091509_701422_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091509_701422_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091836_558176_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091836_558176_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091836_567278_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091836_567278_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091945_994409_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091945_994409_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091946_003669_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091946_003669_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091946_033697_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091946_033697_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_091946_055000_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_091946_055000_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_433455_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_433455_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_473993_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_473993_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_504750_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_504750_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_533215_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_533215_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_534135_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_534135_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_700116_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_700116_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_715707_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_715707_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_745328_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_745328_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_772756_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_772756_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_774717_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_774717_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_794882_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_794882_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_801975_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_801975_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092423_885262_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092423_885262_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092424_925213_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092424_925213_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092424_926372_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092424_926372_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092424_939766_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092424_939766_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092425_503632_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092425_503632_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092427_448997_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092427_448997_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092427_450416_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092427_450416_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092427_451672_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092427_451672_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092431_686407_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092431_686407_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092431_855729_confidence_91.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092431_855729_confidence_91.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_645463_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_645463_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_670146_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_670146_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_680026_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_680026_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_701202_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_701202_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_703006_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_703006_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_730779_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_730779_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_735147_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_735147_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_756849_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_756849_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_821319_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_821319_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_822726_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_822726_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_855224_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_855224_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_871986_confidence_99.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_871986_confidence_99.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_873344_confidence_98.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_873344_confidence_98.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_909169_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_909169_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_925492_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_925492_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_933707_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_933707_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092433_955527_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092433_955527_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092434_110020_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092434_110020_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092434_115573_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092434_115573_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092434_159093_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092434_159093_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092435_673660_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092435_673660_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092435_692376_confidence_95.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092435_692376_confidence_95.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092435_693292_confidence_91.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092435_693292_confidence_91.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092435_720850_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092435_720850_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092435_782424_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092435_782424_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092435_783971_confidence_91.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092435_783971_confidence_91.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092435_797950_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092435_797950_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092435_807666_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092435_807666_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092435_816998_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092435_816998_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092435_937549_confidence_97.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092435_937549_confidence_97.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092435_943863_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092435_943863_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092436_018626_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092436_018626_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092436_020101_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092436_020101_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092436_032277_confidence_96.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092436_032277_confidence_96.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092436_055894_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092436_055894_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092436_056780_confidence_93.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092436_056780_confidence_93.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092436_078541_confidence_92.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092436_078541_confidence_92.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092436_235212_confidence_91.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092436_235212_confidence_91.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092436_298031_confidence_94.jpg
+Raw result: 
+Parsed with grep: employee_id=, confidence=
+No valid match for 20250318_092436_298031_confidence_94.jpg
+Processing: /home/ubuntu/faceDetections90/2025-03-18/20250318_092436_298775_confidence_93.jpg
