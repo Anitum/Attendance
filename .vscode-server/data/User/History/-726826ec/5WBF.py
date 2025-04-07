@@ -1,0 +1,208 @@
+#!/usr/bin/env python3
+# File name: send_exit_notification.py
+
+import os
+import json
+import csv
+import subprocess
+import logging
+from datetime import datetime
+import sys
+
+# Configuration
+RECOGNITION_DIR = "/home/ubuntu/face_recognition_results"
+EMPLOYEE_EMAIL_MAPPING_FILE = "/home/ubuntu/employee_email_mapping_test.json"
+LOG_FILE = os.path.expanduser("~/logs/exit_notification.log")
+EMAIL_SUBJECT = "Exit Time Recorded"
+
+# Configure logging
+os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
+logging.basicConfig(
+    filename=LOG_FILE,
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
+def load_employee_mapping():
+    """Load employee email mapping from JSON file"""
+    try:
+        with open(EMPLOYEE_EMAIL_MAPPING_FILE, 'r') as f:
+            return json.load(f)
+    except Exception as e:
+        logging.error(f"Failed to load employee email mapping: {e}")
+        return {}
+
+def format_employee_name(employee_id):
+    """Convert employee_id to formatted name (e.g., 'merwin_mathew' -> 'Merwin Mathew')"""
+    return ' '.join([part.capitalize() for part in employee_id.split('_')])
+
+def create_sent_exit_record_file():
+    """Create the daily sent exit email record file if it doesn't exist"""
+    today = datetime.now().strftime('%Y-%m-%d')
+    sent_file = os.path.join(RECOGNITION_DIR, f"sent_exit_emails_{today}.json")
+    if not os.path.exists(sent_file):
+        with open(sent_file, 'w') as f:
+            json.dump({}, f)
+    return sent_file
+
+def is_exit_email_already_sent(employee_id):
+    """Check if exit email was already sent to this employee today"""
+    sent_file = create_sent_exit_record_file()
+    try:
+        with open(sent_file, 'r') as f:
+            sent_records = json.load(f)
+            return employee_id in sent_records
+    except Exception as e:
+        logging.error(f"Error checking sent exit record: {e}")
+        return False
+
+def mark_exit_email_as_sent(employee_id, exit_time):
+    """Mark that an exit email has been sent to this employee"""
+    sent_file = create_sent_exit_record_file()
+    try:
+        with open(sent_file, 'r') as f:
+            sent_records = json.load(f)
+        
+        sent_records[employee_id] = {
+            "exit_time": exit_time,
+            "sent_at": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        }
+        
+        with open(sent_file, 'w') as f:
+            json.dump(sent_records, f, indent=2)
+    except Exception as e:
+        logging.error(f"Error updating sent exit record: {e}")
+
+def send_exit_email(employee_name, employee_email, exit_time):
+    """Send exit time email using mail command with personalized salutation"""
+    try:
+        # Check if already sent before sending
+        if is_exit_email_already_sent(employee_name):
+            logging.info(f"Exit email already sent today to {employee_name}, skipping")
+            return False
+            
+        formatted_name = format_employee_name(employee_name)
+        body = f"""Dear {formatted_name},
+
+Your exit has been recorded at {exit_time}.
+
+Best regards,
+Attendance System"""
+        
+        # Add sender email with the -r flag
+        sender_email = "anitum.data.logs@gmail.com"  # Replace with your preferred sender email
+        
+        cmd = [
+            'mail',
+            '-s', EMAIL_SUBJECT,
+            '-r', sender_email,  # This specifies the sender email address
+            employee_email
+        ]
+        
+        logging.info(f"Sending exit notification to {employee_email}")
+        result = subprocess.run(
+            cmd,
+            input=body,
+            text=True,
+            capture_output=True
+        )
+        
+        if result.returncode == 0:
+            logging.info(f"Exit notification sent successfully to {employee_email}")
+            mark_exit_email_as_sent(employee_name, exit_time)
+            return True
+        else:
+            logging.error(f"Exit notification failed to {employee_email}: {result.stderr}")
+            return False
+            
+    except Exception as e:
+        logging.error(f"Email error: {str(e)}")
+        return False
+
+def process_exit_notifications():
+    """Process attendance data and send exit time notifications"""
+    employee_mapping = load_employee_mapping()
+    
+    today = datetime.now().strftime('%Y-%m-%d')
+    attendance_file = os.path.join(RECOGNITION_DIR, f"attendance_results_{today}.csv")
+    
+    if not os.path.exists(attendance_file):
+        logging.error(f"Attendance file not found for today: {attendance_file}")
+        return False
+    
+    # Dictionary to track last detection time for each employee
+    employee_last_times = {}
+    
+    try:
+        with open(attendance_file, 'r') as f:
+            reader = csv.reader(f)
+            next(reader, None)  # Skip header
+            
+            for row in reader:
+                try:
+                    if len(row) < 6:
+                        continue
+                    
+                    timestamp_str = row[0].strip('"')
+                    employee_id = row[2].strip('"')
+                    confidence = float(row[3].strip('"'))
+                    
+                    # Skip low confidence detections
+                    if confidence < 70:
+                        continue
+                    
+                    # Skip if no email mapping
+                    if employee_id not in employee_mapping:
+                        continue
+                    
+                    timestamp = datetime.strptime(timestamp_str, '%Y-%m-%d %H:%M:%S')
+                    
+                    # Update last time if it's the first detection or a later one
+                    if employee_id not in employee_last_times or timestamp > employee_last_times[employee_id]:
+                        employee_last_times[employee_id] = timestamp
+                
+                except Exception as e:
+                    logging.error(f"Error processing row {row}: {e}")
+        
+# Inside the process_exit_notifications function, modify the "Send exit notifications" section:
+
+# Send exit notifications
+        success_count = 0
+        for employee_id, last_time in employee_last_times.items():
+            # Add this check to ensure time is after 4 PM (16:00)
+            if last_time.hour < 16:
+                logging.info(f"Skipping exit notification for {employee_id} as last detection time {last_time} is before 4 PM")
+                continue
+                
+            employee_email = employee_mapping.get(employee_id)
+            if not employee_email:
+                continue
+            
+            # Check if exit email already sent for this employee
+            if is_exit_email_already_sent(employee_id):
+                logging.info(f"Exit email already sent today to {employee_id}, skipping")
+                continue
+                    
+            exit_time = last_time.strftime('%Y-%m-%d %H:%M:%S')
+            if send_exit_email(employee_id, employee_email, exit_time):
+                success_count += 1
+                        
+        logging.info(f"Successfully sent {success_count} exit notifications")
+        return True
+    
+    except Exception as e:
+        logging.error(f"Error processing exit notifications: {e}")
+        return False
+
+if __name__ == "__main__":
+    logging.info("Starting exit notification processor")
+    try:
+        if process_exit_notifications():
+            logging.info("Successfully processed exit notifications")
+            sys.exit(0)
+        else:
+            logging.error("Failed to process exit notifications")
+            sys.exit(1)
+    except Exception as e:
+        logging.error(f"Unhandled exception: {e}")
+        sys.exit(1)

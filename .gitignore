@@ -1,28 +1,62 @@
-# First ignore everything
+# Ignore all files and directories by default
 *
-
-# Then allow directories so we can selectively include content
 !*/
 
-# Explicitly allow Python and shell files
+# Don't ignore specific directories you want to keep
+!motionDetector/
+!trash/
+!old/
+
+# Ignore all JSON files
+*.json
+
+# Ignore all PEM files
+*.pem
+
+# Ignore all PT files
+*.pt
+
+# Ignore all key files
+*.key
+
+# Ignore all PUB files
+*.PUB
+*.pub
+
+# Re-include specific files you want to track
+!.gitignore
 !*.py
 !*.sh
 
-# Only keep these specific directories
-# Implicitly exclude all other directories
-/*
-!/motionDetector/
-!/trash/
-!/old/
+# Ignore specific directories explicitly
+.aws/
+.cache/
+.config/
+.dotnet/
+.git/
+.local/
+.ssh/
+.vscode-server/
+__pycache__/
+ProcessedFaces/
+PushToAWSandGrey/
+Results/
+faceDetectionTrack/
+faceDetections/
+faceDetections90/
+faceDetectionsOld/
+face_recognition_results/
+intel/
+logs/
+model benching/
+models/
+open_model_zoo/
+output_frames/
+processing/
+recognizedFaces/
+results/
+testing_greythr_attendance/
+track_continuity/
 
-# Even in allowed directories, ignore these file types
-*.json
-*.pem
-*.pt
-*.key
-*.PUB
-*.pub
+# Ignore MKV video files
 *.mkv
-
-# Don't forget to keep the gitignore itself
-!.gitignore
