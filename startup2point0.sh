@@ -186,10 +186,7 @@ if [ -f ~/pids.txt ]; then
     rm ~/pids.txt
 fi
 
-# Remove cron job for email_push_attendance.py
-echo "Removing cron job for email_push_attendance.py..." | tee -a "$log_file"
-(crontab -l | grep -v "email_push_attendance.py") | crontab -
-echo "Cron job removed" | tee -a "$log_file"
+
 
 echo "All processes should now be stopped." | tee -a "$log_file"
 echo "Check for any remaining processes with: ps aux | grep -E 'record|face|monitor|watchdog|AWS_Recog|email_push_attendance'" | tee -a "$log_file"
