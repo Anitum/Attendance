@@ -56,6 +56,46 @@ def parse_timestamp_from_filename(filename):
         return f"{year}-{month}-{day} {hour}:{minute}:{second}"
     return None
 
+# NEW FUNCTION: Create the daily processed record file if it doesn't exist
+def create_processed_record_file():
+    """Create the daily processed record file if it doesn't exist"""
+    today = datetime.now().strftime('%Y-%m-%d')
+    processed_file = os.path.join(RECOGNITION_DIR, f"processed_greythr_{today}.json")
+    if not os.path.exists(processed_file):
+        with open(processed_file, 'w') as f:
+            json.dump({}, f)
+    return processed_file
+
+# NEW FUNCTION: Check if employee was already processed today
+def is_employee_already_processed(employee_name):
+    """Check if employee was already processed today"""
+    processed_file = create_processed_record_file()
+    try:
+        with open(processed_file, 'r') as f:
+            processed_records = json.load(f)
+            return employee_name in processed_records
+    except Exception as e:
+        logging.error(f"Error checking processed record: {e}")
+        return False
+
+# NEW FUNCTION: Mark that an employee has been processed
+def mark_employee_as_processed(employee_name, timestamp):
+    """Mark that an employee has been processed"""
+    processed_file = create_processed_record_file()
+    try:
+        with open(processed_file, 'r') as f:
+            processed_records = json.load(f)
+        
+        processed_records[employee_name] = {
+            "timestamp": timestamp,
+            "processed_at": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        }
+        
+        with open(processed_file, 'w') as f:
+            json.dump(processed_records, f, indent=2)
+    except Exception as e:
+        logging.error(f"Error updating processed record: {e}")
+
 def process_attendance():
     """Process recognition data and send to GreyTHR"""
     # Load employee mapping
@@ -146,12 +186,18 @@ def process_attendance():
                         logging.warning(f"No mapping found for employee: {employee_name}")
                         continue
                     
-                    # Check if this employee has already been processed
-                    if attendance_state.get(employee_name, 0) == 1:
-                        logging.info(f"Employee {employee_name} already marked present today")
+                    # MODIFIED: Check persistent storage first, then in-memory state
+                    if is_employee_already_processed(employee_name):
+                        logging.info(f"Employee {employee_name} already marked present today (from persistent storage)")
+                        attendance_state[employee_name] = 1  # Update memory state to match persistent state
                         continue
                     
-                    # Mark the employee as present
+                    # Check memory state (redundant after above change, but kept for safety)
+                    if attendance_state.get(employee_name, 0) == 1:
+                        logging.info(f"Employee {employee_name} already marked present today (from memory state)")
+                        continue
+                    
+                    # Mark the employee as present in memory
                     attendance_state[employee_name] = 1
                     
                     # Parse the timestamp to datetime object
@@ -162,6 +208,9 @@ def process_attendance():
                         
                         # Send to GreyTHR using entry.sh
                         send_to_greythr(employee_id_for_greythr, formatted_time)
+                        
+                        # ADDED: Mark as processed in persistent storage
+                        mark_employee_as_processed(employee_name, formatted_time)
                         
                         logging.info(f"Successfully processed attendance for {employee_name} at {formatted_time}")
                     except ValueError as e:
@@ -226,12 +275,18 @@ def process_attendance_file(csv_file):
                         logging.warning(f"No mapping found for employee: {employee_name}")
                         continue
                     
-                    # Check if this employee has already been processed
+                    # MODIFIED: Check persistent storage first, then in-memory state
+                    if is_employee_already_processed(employee_name):
+                        logging.info(f"Employee {employee_name} already marked present today (from persistent storage)")
+                        attendance_state[employee_name] = 1  # Update memory state to match persistent state
+                        continue
+                        
+                    # Check memory state (redundant after above change, but kept for safety)
                     if attendance_state.get(employee_name, 0) == 1:
-                        logging.info(f"Employee {employee_name} already marked present today")
+                        logging.info(f"Employee {employee_name} already marked present today (from memory state)")
                         continue
                     
-                    # Mark the employee as present
+                    # Mark the employee as present in memory
                     attendance_state[employee_name] = 1
                     
                     # Parse the timestamp to datetime object
@@ -242,6 +297,9 @@ def process_attendance_file(csv_file):
                         
                         # Send to GreyTHR using entry.sh
                         send_to_greythr(employee_id_for_greythr, formatted_time)
+                        
+                        # ADDED: Mark as processed in persistent storage
+                        mark_employee_as_processed(employee_name, formatted_time)
                         
                         logging.info(f"Successfully processed attendance for {employee_name} at {formatted_time}")
                     except ValueError as e:

@@ -3,10 +3,10 @@ import cv2
 from tensorflow.keras.models import load_model
 
 # Load the trained model
-model = load_model("~/trash/face_recognition_model_extended.keras")
+model = load_model("face_recognition_model_extended.keras")
 
 # Load the label encoder
-label_encoder = np.load("~/trash/label_encoder_extended.npy", allow_pickle=True)
+label_encoder = np.load("label_encoder_extended.npy", allow_pickle=True)
 
 def preprocess_image(image_path, target_size=(128, 128)):
     """Preprocesses the input image for model prediction."""
@@ -32,5 +32,5 @@ def predict(image_path):
     return predicted_class_name, confidence
 
 # Example Usage
-image_path =r""
+image_path =r"/home/ubuntu/PushToAWSandGrey/20250408/channel401_track127_channel401_20250408T092830_127_1_confidence_93.jpg"
 predict(image_path)
