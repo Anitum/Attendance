@@ -123,7 +123,7 @@ process_pull_images() {
                 python3 "$PULL_IMAGES_SCRIPT" \
                     -i "$track_dir" \
                     -o "$FINAL_OUTPUT_DIR" \
-                    -n 1 \
+                    -n 2 \
                     -p "${channel_part}_track${track_id}" 2>&1 | tee -a "$DEBUG_LOG"
                 
                 if [ ${PIPESTATUS[0]} -ne 0 ]; then

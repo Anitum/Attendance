@@ -67,7 +67,7 @@ touch /tmp/stop_recording
 echo "Searching for remaining processes by name..." | tee -a "$log_file"
 
 # Find processes by exact script name
-for script in "record.sh" "face_detection_tracking_noupload.sh" "monitor_memory" "watchdog.sh" "AWS_Recog.sh" "email_push_attendance.py"; do
+for script in "record.sh" "face_detection_tracking_noupload.sh" "monitor_memory" "watchdog.sh" "AWS_Recog.sh" "email_push_attendance.py" "greythr_push_attendance.py"; do
     echo "Looking for processes running $script" | tee -a "$log_file"
     pids=$(pgrep -f "$script" || echo "")
     for pid in $pids; do
@@ -82,7 +82,7 @@ for pid in $bash_pids; do
 done
 
 # Find python processes that might be running email_push_attendance.py
-python_pids=$(ps aux | grep python | grep 'email_push_attendance.py' | grep -v grep | awk '{print $2}')
+python_pids=$(ps aux | grep python | grep -E 'email_push_attendance.py|greythr_push_attendance.py' | grep -v grep | awk '{print $2}')
 for pid in $python_pids; do
     kill_process_tree $pid "email_push_attendance.py python script"
 done
@@ -103,7 +103,7 @@ echo "All processes should now be stopped." | tee -a "$log_file"
 echo "Check for any remaining processes with: ps aux | grep -E 'record|face|monitor|watchdog|AWS_Recog|email_push_attendance'" | tee -a "$log_file"
 
 # Final verification
-remaining=$(ps aux | grep -E 'record.sh|face_detection_tracking_noupload|monitor_memory|watchdog|AWS_Recog|email_push_attendance.py' | grep -v grep || echo "")
+remaining=$(ps aux | grep -E 'record.sh|face_detection_tracking_noupload|monitor_memory|watchdog|AWS_Recog|email_push_attendance.py|greythr_push_attendance.py' | grep -v grep || echo "")
 if [ -n "$remaining" ]; then
     echo "WARNING: Some processes may still be running:" | tee -a "$log_file"
     echo "$remaining" | tee -a "$log_file"
