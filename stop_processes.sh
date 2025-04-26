@@ -67,7 +67,7 @@ touch /tmp/stop_recording
 echo "Searching for remaining processes by name..." | tee -a "$log_file"
 
 # Find processes by exact script name
-for script in "record.sh" "face_detection_tracking_noupload.sh" "monitor_memory" "watchdog.sh" "AWS_Recog.sh" "email_push_attendance.py" "greythr_push_attendance.py"; do
+for script in "record.sh" "face_detection_tracking_noupload.sh" "monitor_memory" "watchdog.sh" "AWS_Recog.sh" "email_push_attendance.py" "greythr_push_attendance.py" "greythr_push_exit.py"; do
     echo "Looking for processes running $script" | tee -a "$log_file"
     pids=$(pgrep -f "$script" || echo "")
     for pid in $pids; do
@@ -76,7 +76,7 @@ for script in "record.sh" "face_detection_tracking_noupload.sh" "monitor_memory"
 done
 
 # Find bash processes that might be running our scripts
-bash_pids=$(ps aux | grep bash | grep -E 'record|face_detection|monitor|watchdog|AWS_Recog' | grep -v grep | awk '{print $2}')
+bash_pids=$(ps aux | grep bash | grep -E 'record|face_detection|monitor|watchdog|AWS_Recog|greythr_push_exit' | grep -v grep | awk '{print $2}')
 for pid in $bash_pids; do
     kill_process_tree $pid "bash script"
 done
