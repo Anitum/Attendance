@@ -16,9 +16,9 @@ if [ $# -lt 2 ]; then
 fi
 
 # Set the API credentials and endpoint
-API_ID="6051f64b-02d8-4e31-a5e5-dcdd22c55ca7"
-PRIVATE_KEY_FILE="/home/ubuntu/greythr_pem/6051f64b-02d8-4e31-a5e5-dcdd22c55ca7.pem"
-API_ENDPOINT="https://tousifapisso.greythr.com/v2/attendance/asca/swipes"
+API_ID="70c256db-8155-4308-b0e0-10d4b3413c7e"
+PRIVATE_KEY_FILE="/home/ubuntu/greythr_pem/70c256db-8155-4308-b0e0-10d4b3413c7e.pem"
+API_ENDPOINT="https://erasmithtech.greythr.com/v2/attendance/asca/swipes"
 
 # Extract command line parameters
 EMPLOYEE_ID="$1"

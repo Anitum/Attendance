@@ -75,3 +75,5 @@ track_continuity/
 # Explicitly ignore these problematic directories with all content
 .local/**
 models/**
+entry.sh
+exit.sh
